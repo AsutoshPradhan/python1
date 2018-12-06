@@ -1,4 +1,2 @@
-this is 1st line 
-2nd line 
-3rd line 
-Now the file has one more line!
+2018-12-06 18:49:18.181595
+2018-12-06 18:49:31.918108

@@ -1,35 +1,20 @@
+import datetime;
+import time;
+day= str(datetime.datetime.now())
 
-a = 33
-b = 200
-k=1
-arr=[11,22,33]
-
-  
-
-def func1(i,j):
-    return i+j
+print (day)
 
 
-if b > a:
-    print("b is greater than a")
+f = open("log.txt", "a")
 
-for x in range(5,21,2):
-    print(x)
-k=0
-for x in arr:
-    print(x)
-    print(arr[k])
-    print(k)
-    k=k+1
-    
-val=func1(6,8)
-print(val)
-k=1
+f.write(day)
+
+f.write("\n")
+f.close()
+
 
 f=open("log.txt")
-#print (f.read()) - write all
-for x in f:
- 	print(x)	
+x=f.read()
+print(x)
+f.close()
 
-
-    

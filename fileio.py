@@ -26,7 +26,7 @@ val=func1(6,8)
 print(val)
 k=1
 
-f=open("/home/asu/Python/logs/log.txt")
+f=open("C:\Users\asupradhan\.jenkins\workspace\Python1\log.txt")
 #print (f.read()) - write all
 for x in f:
  	print(x)	
